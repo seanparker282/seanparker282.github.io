@@ -25,6 +25,7 @@ p {
   width: 100px;
   height: 25px;
   float: right;
+  position: absolute;
 
 }
 #p2 {
