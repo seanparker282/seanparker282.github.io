@@ -1,0 +1,234 @@
+/* stylesheet*/
+*{
+	box-sizing: border-box;
+	font-style: Arial;
+}
+
+/**HEADER**/
+#header-nav{
+	background-color: purple;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 7px;
+}
+.navbar-brand h1{
+	font-family: Impact, Charcoal, sans-serif;
+	color: yellow;
+	font-size: 3em;
+	text-shadow: 1px 1px 1px indigo;
+	margin-top:0
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p{ /*its the llc-iest */
+	color: yellow;
+	font-style: italic;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span { /*tag line*/
+	vertical-align: middle;
+}
+ /*navbar lg-md scrn right side menu*/
+ 
+#nav-list {
+ 	margin-top: 20px
+}
+#nav-list a {
+ 	color: yellow;
+ 	text-align: center;
+}
+#nav-list a:hover {
+ 	border-radius: 25px;
+ 	background: orchid;
+ 	font-family: italic;
+}
+#nav-list a span {
+ 	font-size: 1.6em;
+}
+
+#phone {
+ 	margin-top: 5px;
+}
+#phone a { /*the phone number*/
+	padding-top: 5px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+#phone div { /*delivery message*/
+ 	color: yellow;
+ 	font-weight: bold;
+ 	text-align: right;
+ 	margin-top: 5px;
+ 	padding-right: 12px;
+}
+toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: orchid;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: orchid;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: indigo;
+}
+.navbar-header button.navbar-toggle { /*deselect*/
+	clear: both;
+	margin-top: -55px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ 	border: 1px solid yellow; 
+}
+
+/*IMAGE*/
+#logo-img {
+	background: url('../img/foodLLC100x100.png') no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: 10px 15px 10px 0;
+}
+
+/*Large devices*/
+@media (min-width: 1200px){
+.glyphicon {
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+.hide1 {
+	display: none;
+	visibility: hidden;
+}
+}
+
+/*medium devices*/
+@media (min-width: 992px) and (max-width: 1199px) {
+#logo-img {
+    background: url('../img/foodLLC100x100.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.glyphicon {
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+#nav-list a span {
+    font-size: 1.3em;
+
+}
+.hide1 {
+	display: none;
+	visibility: hidden;
+}
+}
+/*small devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+#logo-img {
+    background: url('../img/foodLLC75x75.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-right: 0px;
+}
+.navbar-brand {
+	padding-top: 0px;
+	height: 100px;
+}
+.navbar-brand h1 {/* header-rest name*/
+	margin: 0;
+	text-align: left;
+	padding-top: 15px;
+	font-size: 6vw;	 
+}
+.navbar-brand p {/*tag line*/
+	font-size: .8em;
+	margin-top: 10px;
+}
+.navbar-brand p span {/*tag line*/
+	text-align: top;
+	font-size: .8em;
+	margin-top: 5px;
+}
+/*dropdown text*/
+#collapsable-nav a {
+
+	font-size: 1.2em;
+}
+#collapsable-nav a span {
+	font-size: 1em;
+	margin-right: 5px;
+}
+.hide1 {
+	display: none;
+	visibility: hidden;
+}
+}
+
+
+/*extra small devices*/
+@media (max-width: 767px) {
+.navbar-brand {
+	padding-top: 7px;
+	height: 80px;
+}
+.navbar-brand h1 {/* header-rest name*/
+	padding-top: 0px;
+	margin-top: 10px;
+	font-size: 5vw;	
+}
+.navbar-brand p {/*tag line*/
+	font-size: .5em;
+	margin-top: 5px;
+}
+/*dropdown text*/
+#collapsable-nav a {
+	font-size: 1.2em;
+}
+#collapsable-nav a span {
+	font-size: 1em;
+	margin-right: 5px;
+}
+
+}
+h1{
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+body{
+	font-size: 16px;
+	background-color: yellow;
+	color: purple;
+}
+
+.row {
+  width: 90%;
+}
+
+#p1{background-color: purple;
+	color: yellow;
+	float: top;
+  	text-align: center;
+  	font-weight: bold;
+  	padding-bottom: 0;
+  	margin-left: 50px;
+  	margin-bottom: 0;
+}
+#p2{background-color: lightYellow;
+	color: purple;
+	border: solid 2px purple;
+	margin-bottom: 10px;
+	margin-left: 50px;
+}
